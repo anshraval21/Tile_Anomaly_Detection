@@ -36,7 +36,7 @@ if len(class_names) != 2:
     st.stop()
 
 # Streamlit UI
-st.title("🧠 Product Defect Classifier")
+st.title("🧠 Tile Defect Finder")
 uploaded_file = st.file_uploader("📤 Upload an image", type=["jpg", "jpeg", "png"])
 
 if uploaded_file:
